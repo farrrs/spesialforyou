@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="icon" type="image/png" href="IMAGES/love-removebg-preview.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>For you, Cintaakuu Sayangggg</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+
+  <div class="background-glow"></div>
+  <div class="floating-hearts" id="floating-hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="welcome-card">
+
+      <div class="top-label">
+        <span class="sparkle">✦</span>
+        A LITTLE GIFT FOR YOU
+        <span class="sparkle">✦</span>
+      </div>
+
+      <div class="envelope-wrap">
+        <div class="envelope">💌</div>
+        <span class="mini-heart heart-one">💗</span>
+        <span class="mini-heart heart-two">✨</span>
+        <span class="mini-heart heart-three">💕</span>
+      </div>
+
+      <p class="eyebrow">Hai sayangggkoo, bidadari di hatikuu!</p>
+
+      <h1>
+        Minta waktunya
+        <span>sebentar yaww 🥺</span>
+      </h1>
+
+      <p class="description">
+        Aku punya sesuatu yang spesial buat kamu.
+        Tapi sebelum masuk, isi dulu yaww kata kuncinya! 🤭
+      </p>
+
+      <div class="divider">
+        <span></span> 💕 <span></span>
+      </div>
+
+      <form id="unlock-form">
+        <label for="password">🔐 Kata kunci rahasia</label>
+
+        <div class="input-wrap">
+          <input
+            type="password"
+            id="password"
+            placeholder="Coba tebak, sayangggg"
+            autocomplete="off"
+            required
+          >
+          <button
+            type="button"
+            id="toggle-password"
+            class="eye-button"
+            aria-label="Tampilkan kata kunci"
+          >👁️</button>
+        </div>
+
+        <button type="submit" id="cek" class="unlock-button">
+          <span id="button-text">buka ini yaww 💌</span>
+          <span>♡</span>
+        </button>
+      </form>
+
+      <p id="message" class="message" aria-live="polite"></p>
+
+      <a id="nextBtn" class="next-button hidden" href="page2.html">
+        Yeayyy berhasilll, pencet ini sayangg
+      </a>
+
+      <div class="hint">
+        <span>💡</span>
+        <span>Petunjuk: panggilan ku ke kamuu</span>
+      </div>
+
+      <footer>Dibuat dengan sedikit malu, banyak cinta ♡</footer>
+
+    </section>
+  </main>
+
+  <script src="page1.js"></script>
+</body>
+</html>
